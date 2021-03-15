@@ -1,0 +1,221 @@
+body{
+    background-color: #fff;
+    margin: 0;
+}
+
+@media (min-width:320px){
+    .bg-mobile{
+        background: url('assets/images/bg.png') no-repeat;
+        background-size: cover;
+        height:100vh;
+        background-position:center;
+        position: absolute;
+        width: 100%;
+    }
+    .background{
+        position: relative;
+        display: none;
+    }
+    .background > img{
+        width:100%;
+        display: none;
+    }
+    .block-content-mobile{
+        width: 100%;
+        height:60%;
+        margin:10% 0;
+        display: flex;
+        align-items: center;
+        position: relative;
+    
+    }
+    .mobile-content_1{
+        width:120px;
+        height:120px;
+        background-color: white;
+        position: absolute;
+        top:0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobile-content_2{
+        width:120px;
+        height:120px;
+        background-color: white;
+        position: absolute;
+        top:0;
+        right:0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobile-content_3{
+        width:120px;
+        height:120px;
+        background-color: white;
+        position: absolute;
+        bottom:0;
+        left:0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobile-content_4{
+        width:120px;
+        height:120px;
+        background-color: white;
+        position: absolute;
+        bottom:0;
+        right:0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon_mobile{
+        width:20px;
+    }
+    .right_content_detail_mobile{
+        font-size:12px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .black-content-mobile{
+        width:100%;
+        height:30%;
+        position: fixed;
+        background-color: #000;
+    }
+}
+
+@media (min-width:1024px){
+    .bg-mobile{
+        display:none;
+    }
+    .background{
+        position: relative;
+        display: block;
+    }
+    .background > img{
+        width:100%;
+        display: block;
+    }
+    .black_block{
+        background-color: #000;
+        width:200px;
+        height:200px;
+        padding:5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position:absolute;
+        top:calc((100% - 300px) / 2);
+        left:6%;
+        
+        .content{
+            color:white;
+            font-size: 40px;
+        }
+        .content_2{
+            color:white;
+            font-size:14px;
+        }
+
+    }   
+    .right_content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon{
+        width:50px;
+        height:auto;
+    }
+    .right_content_detail{
+        font-weight: bold;
+        font-size: 12px;
+        text-align: center;
+        padding:0 15px;
+    }
+    .right_content_block{
+        width:300px;
+        height:300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position:absolute;
+        top:calc((100% - 400px) / 2);
+        right:5%;
+        flex:100%;
+        max-width: 100%;
+    }
+    .right_content_inside_top{
+        background-color:white;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+    }
+    .right_content_inside_bottom{
+        background-color:white;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+    }
+    .right_content_1{
+    width: 48%;
+    height: 48%;
+    background: white;
+    top: 0;
+    position: absolute;
+    }
+    .right_content_2{
+    width: 48%;
+    height: 48%;
+    background: white;
+    top: 0;
+    right: 0;
+    position: absolute;
+    }
+    .right_content_3{
+    width: 48%;
+    height: 48%;
+    background: white;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    }
+    .right_content_4{
+    width: 48%;
+    height: 48%;
+    background: white;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    }
+    .button{
+        width: 100%;
+        height:55px;
+        position: absolute;
+        bottom: -75px;
+        background-color: #516075;
+        display: flex;
+        flex-direction: revert;
+        align-items: center;
+        justify-content: space-around;
+        p{
+            color:white;
+            font-size:11.5px;
+            font-weight: bold;
+        }
+        span > img{
+            width: 30px;
+        }
+    }
+}
