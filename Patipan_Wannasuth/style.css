@@ -1,0 +1,82 @@
+h1 {
+  -webkit-margin-before: 0rem;
+          margin-block-start: 0rem;
+}
+
+p {
+  margin-block: 0rem;
+}
+
+body {
+  background-color: #eee;
+  background-image: url("/images/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.container {
+  margin: 80px 140px;
+}
+
+.container-header {
+  background: #000;
+  height: 350px;
+  width: 350px;
+  color: #eee;
+}
+
+.header-text {
+  padding: 35px 70px;
+}
+
+.text {
+  padding-bottom: 44px;
+  padding-left: 72px;
+}
+
+.continute {
+  background: #516075;
+  height: 47px;
+  width: 305px;
+  color: #eee;
+  margin-left: 918px;
+  text-align: center;
+  padding-top: 33px;
+}
+
+.menu {
+  margin-top: -350px;
+  margin-left: 918px;
+}
+
+.menu-1 {
+  background: #fff;
+  height: 122px;
+  width: 150px;
+  text-align: center;
+  padding-top: 28px;
+}
+
+.menu-2 {
+  background: #fff;
+  height: 122px;
+  width: 150px;
+  text-align: center;
+  padding-top: 28px;
+}
+
+.menu-3 {
+  background: #fff;
+  height: 122px;
+  width: 150px;
+  text-align: center;
+  padding-top: 28px;
+}
+
+.menu-4 {
+  background: #fff;
+  height: 122px;
+  width: 150px;
+  text-align: center;
+  padding-top: 28px;
+}/*# sourceMappingURL=style.css.map */
